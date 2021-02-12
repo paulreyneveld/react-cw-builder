@@ -7,7 +7,7 @@ const Design = () => {
     const renderTableData = () => {
         return grid.map((item, index) => {
             if (index % 15 === 0) {
-                return <tr></tr>
+                return <tr />
             }
             else {
                 return <td>{index}</td>
